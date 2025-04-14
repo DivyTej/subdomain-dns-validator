@@ -34,14 +34,14 @@ This Python script validates DNS records for a list of subdomains against a set 
 
 3.  **Run the script:**
     ```bash
-    python dns_checker.py subdomains.txt ips.txt [optional: dns_server]
+    python subdomain-dns-validator.py subdomains.txt ips.txt [optional: dns_server]
     ```
     * Replace `subdomains.txt` and `ips.txt` with your actual file names.
     * Optionally, specify a custom DNS server (e.g., `8.8.8.8`).
 
     Example:
     ```bash
-    python dns_checker.py subdomains.txt ips.txt 1.1.1.1
+    python subdomain-dns-validator.py subdomains.txt ips.txt 1.1.1.1
     ```
 
 ## Output
